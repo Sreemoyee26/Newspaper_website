@@ -1,4 +1,4 @@
-#Instructions:
+# Instructions:
 
 - Make a folder of the page you are making
 - Make html and css files inside that folder
