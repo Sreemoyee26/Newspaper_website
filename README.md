@@ -1,9 +1,10 @@
-# Instructions:
+# Instructions: ( installing git and using git bash is preferred - commands mentioned, but those who cant and is just uploading files pls follow the folder structures specified )
 
 - Make a folder of the page you are making
 - Make html and css files inside that folder
 - Copy the base.html inside base folder into your html file as first code
 - Follow the instructions as per the base.html
+- For uploading images make your folder inside assets folder and inside your folder put the image files ( in img src write "../assets/your_folder_name/your_file_name" )
 
 Directions to make changes to the repo:
 
