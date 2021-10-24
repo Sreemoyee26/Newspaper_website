@@ -1,4 +1,6 @@
-# Instructions: ( installing git and using git bash is preferred - commands mentioned, but those who cant and is just uploading files pls follow the folder structures specified )
+# Instructions: 
+
+( installing git and using git bash is preferred - commands mentioned, but those who cant and is just uploading files pls follow the folder structures specified )
 
 - Make a folder of the page you are making
 - Make html and css files inside that folder
