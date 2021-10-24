@@ -2,12 +2,8 @@ body{
     margin: 0;
     padding 0;
     width: 100vw;
-    min-height: 100vh;
+    min-height: 80vh;
     overflow-x: hidden;
-}
-
-main{
-    height: 75vh;
 }
 
 .navbar{
@@ -107,9 +103,18 @@ main{
     background-color: rgba(66, 5, 63, 0.829);
 }
 
+main{
+    margin-top: 5vw;
+    min-height: 52vh;
+}
+
 @media screen and (max-width: 992px){
     .navbar-brand{
         height:50px;
+    }
+
+    main{
+        margin-top: 6.5vw;
     }
 }
 
@@ -132,5 +137,14 @@ main{
     }
     .fab{
         font-size: 1.6em;
+    }
+    main{
+        margin-top: 9.5vw;
+    }
+}
+
+@media screen and (max-width: 380px){
+    main{
+        margin-top: 18vw;
     }
 }
