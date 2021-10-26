@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+     height: 10vh;
+     width: 100%;
+     background-color: rgb(134, 150, 167);
+     font-size: 30px;
+     font-family: cursive;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.quote{
+    height: 10vh;
+     width: 100%;
+     font-size: 30px;
+     font-family: cursive;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+h3{
+    color: rgb(59, 58, 58);
+}
+.subhead{
+    color: rgb(22, 79, 88);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2{
+    color: #f708a7;
+    position: relative;
+    text-align: center;
+    margin-top: 3vh;
+}
+h2::before{
+    content: "";
+    display: block;
+    width: 10vw;
+    height: 2px;
+    background: #07fd28;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+}
+h2::after{
+    content: "";
+    display: block;
+    width: 10vw;
+    height: 2px;
+    background: #07fd28;
+    position: absolute;
+    right: 30%;
+    top: 50%;
+}
+.bg{
+    background-image: url(/bg1.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.color2{
+    background-image: url(/bg3.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-text{
+    font-family: cursive;
+}
+@media(max-width:550px){
+    .quote{
+        font-size: 20px;
+    }
+}
+@media (max-width: 830px)
+{
+    h2::before{
+        left: 20%;
+    }
+    h2::after{
+        right: 20%;
+    }
+}
+@media (max-width: 630px)
+{
+    .cards{
+        display: block;
+        justify-content: center;
+        align-content: center;
+    }
+    .card{
+        margin-top: 10px;
+    }
+}
