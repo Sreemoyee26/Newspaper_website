@@ -2,14 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: var(--body-font);
 }
 
 :root {
     --body-font: 'Patrick Hand', cursive;
-}
-
-body {
-    font-family: var(--body-font);
 }
 
 
@@ -23,7 +20,6 @@ body {
     color: white;
     border-radius: 20%;
     background-image: linear-gradient(to right top, #1d194c, #3c3b6d, #5c5f8f, #7f85b1, #a4add4);
-    ;
 }
 
 
@@ -38,7 +34,7 @@ body {
 
 .invent-definition-subcontainer p {
     line-height: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .latest-invent-heading h4 {
@@ -51,15 +47,11 @@ body {
 /* invent main container styling starts */
 
 .invent-maincontainer {
-    background-image: url("images/inventbg2.jpg");
+    background-image: url("/assets/inventimages/inventbg2.jpg");
     background-size: cover;
     /* background-repeat: no-repeat; */
     /* background-attachment: fixed; */
     overflow: hidden;
-}
-
-.invent-lastcontainer {
-    margin-top: 2.5rem;
 }
 
 
@@ -101,9 +93,6 @@ body {
     .imgs {
         height: 20vh;
     }
-    .invent-lastcontainer {
-        margin-top: 0;
-    }
     .inventcontainer-items {
         margin: 1rem 0 1rem 0;
     }
@@ -115,8 +104,5 @@ body {
 @media screen and (min-width:768px) and (max-width:1023px) {
     .inventcontainer-items {
         padding: 0;
-    }
-    .invent-lastcontainer {
-        margin-top: 1rem;
     }
 }
