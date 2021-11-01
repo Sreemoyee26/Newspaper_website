@@ -1,0 +1,82 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: var(--bodyfont);
+    }
+    
+     :root {
+        --bodyfont: 'Patrick Hand', cursive;
+    }
+    /* childrenissue header  styling starts */
+    
+    .childrenissue-mainheader {
+        background-image: linear-gradient(to right, #a2cff0, #1bdafc, #00e3df, #00e696, #38e015);
+    }
+    
+    .childrenissue-subheader {
+        color: white;
+        border-radius: 50%;
+        background-image: linear-gradient(to right, #02101b, #08111d, #0f121f, #141220, #191320);
+    }
+    /* childrenissue  container styling starts */
+    
+    .childrenissue-maincontainer {
+        background-image: url("/assets/childisuueimages/childissuebg.jpg");
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        /* background-attachment: fixed; */
+        overflow: hidden;
+    }
+    /* button styling starts */
+    
+    .button {
+        text-decoration: none;
+        padding: 4px 0.5rem 4px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .button:hover {
+        background-color: black;
+        color: white;
+    }
+    /* images styling starts */
+    
+    .imgs {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+    }
+    /* card styling starts */
+    
+    .card_issue {
+        background-color: white;
+        color: black;
+        transition: background-color, color, 200ms ease-in;
+    }
+    
+    .card_issue:hover {
+        background-color: #052735;
+        color: white;
+    }
+    /* responsive starts */
+    
+    @media screen and (max-width:767px) {
+        .imgs {
+            height: 20vh;
+        }
+        .childrenissue-lastcontainer {
+            padding-top: 0px;
+            margin-top: 0px;
+        }
+        .childrenissuecontainer-items {
+            margin: 1rem 0 1rem 0;
+        }
+    }
+    
+    @media screen and (min-width:768px) and (max-width:1023px) {
+        .childrenissuecontainer-items {
+            padding: 0;
+        }
+    }
